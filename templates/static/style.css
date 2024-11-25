@@ -38,6 +38,9 @@ h1 {
     color: var(--offwhite);
     text-align: center;
 }
+h2{
+    color: var(--offwhite);
+}
 
 p {
     font-size: 1.2rem;
@@ -47,34 +50,20 @@ p {
     margin-bottom: 0.625rem; 
 }
 
-.social-media {
+.button-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    flex-direction: row;
-    margin-top: -3.5rem;
-    gap: 5rem;
 }
 
-.social-media-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.social-media-icon {
-    height: 5rem;
-    width: 5rem;
-    margin-top: 5rem;
-}
-
-.social-media-details a p {
-    color: var(--offwhite);
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 0.5rem;
+.button {
+    text-decoration: none;
+    background-color: var(--offwhite);
+    color: var(--background-color);
+    border-radius: 0.3rem;
+    padding: 5px 8px;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: center;
 }
